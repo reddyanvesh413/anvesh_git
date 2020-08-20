@@ -1,0 +1,19 @@
+logs
+target
+**/.idea/*
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/RUNNING_PID
+/bin/
+.DS_Store
+
+# load test specific ignores
+loadresults
+jmeter.log
+automation/perf-automation/*.groovy
+test.ps1
+*metals*
+*bloop*
