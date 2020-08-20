@@ -1,0 +1,34 @@
+ACT SERVICE DIGITAL STORE
+=================================
+
+This application is used to provide wrapper servide for Magento API's
+
+This application has been developed using Play framework release 2.5.4 (activator 1.3.10)
+
+Activator Commands
+==================
+You can run the test using
+
+	activator test
+
+Or run the application using
+
+	activator run
+
+Or compile the application using
+
+	activator clean compile
+
+Or packaging the application using
+
+	activator dist
+
+Or converting the project for eclipse using
+
+	activator eclipse
+
+Usage of API
+============
+
+To use the REST API: 
+	curl -X GET http://localhost:9000/digital_store/health 
